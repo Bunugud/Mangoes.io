@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Mangoes are good</title>
+</head>
+<style>
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color:FAD840;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+</style>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+<a href=mangos%20are%20good%20af%20boys.html>Home</a>
+ <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+ </div>
+<div style="padding-left:16px">
+</div>
+
+<body><center><p><br>
+<body background=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhMVFhUVFhUYFhUXGBcXGBUXFhcXFxcVFxUYHSggGBolGxcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGzUlICUvLS0vLzA1LS0tLS0tLS0tLS0tLS0tLS0tLS0tLi0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAECAwUGBwj/xAA6EAACAQIDBQcDAwEHBQAAAAAAAQIDEQQhMQUSQVFxBhNhgZGx8KHB0Qci8eEUMkJSYnKSFiMzU6L/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwQBAgUG/8QAJhEAAgIBBAEEAwEBAAAAAAAAAAECAxEEEiExURMiQWEFFDKhcf/aAAwDAQACEQMRAD8A9xAAAAAAAAAAAAAAAAAAAAABa6i5oxvEx5mMozhmYEf+2w5hY2H+YxuXkbX4JAMca8XxRemZyYKgAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWVKiirtpELaG0408lm/ojlsdtRzebb+iK9uojWWqNLO3/AIdHittxWUc/E1eI2vJ8WaRTky+C55lKWqlI6kNFXBcmweOkWyxMnxIlvmZbNtaFeVz8m/ox+ETXiJCWKfNEF1LW1Em2Rq5mjqXgmvFPhcyUtovm/cgQjlpmWxjY39WS5yQTpi/g3lHbc1rmjZYbbcJZPJnH1JPmY5TZLHWzj3yUp0L4PRadRSV00y886w+0qlPNNr54m+2Z2qjJ7tVWfMv1auFnHTKr47OnBZSqqSvFpp8i8tAAAAAAAAAAAAAAAAAAAAAAAAAAAAGo2ztTc/bF58WSdrY5UoN8XocVVxLlJ34/QqanUKv2rsu6TSux7n0ZKlRyefpzKKmrXfzyL6UOb/LMkYX001OY25PJ2E1HhERTavk+nLqZqc8tPYvnFcFcwdw8ro0bZvlMyqXMtq1V18rFt3xKOD46N5kVk2lwMIpJ6W8hBLTTp+Skkl0LUrP57lRuSNscGabXG5i3eHDhmWqfz7l8k/UypuSIJxFRrSxh3+S+eZmdJZastqUmtE/yTpSZSt46IlabXAhVa9jZTotq+ngafGRa9rGzjg59nJtdndoJUZLdd09VfLr4HY7K7TU6uuTPMd+xhlinHi14l2jVupYk8oqttM9xjJNXWaKnlGwu2c6T3ZtzjkekbJ2vSxEd6nLquK8jqVXwsWYs2UkyeACY2AAAAAAAAAAAAAAAAAABRuxUg7Zr7lKTvwMSeFk2jHc0jlNu7T35vknboa6Fbe00Rr5V3Jt8L++f3JmHitWzz9k98ss9TXSqoJGxpxT9cuhMpUbkbD/T+ptKK5FiuK7Kl02ikcOrWSsHglZp++ZNgik8ifYip6ssmrq4ZJZLoQq3T7G2rGrxE1n45FS+CRbpk2QZssUvApUeSzvn6mF1c8zkzaTOgo5RKg/IkRg365EFVdL6EuhLLJ+WhLU+SG2D7JlClld/yZY0sy2hPIlQzaLseuDm2wIlegrZmpxWEjbT51OgrxvzIGIoLQ2lz8FKUTl8Ths/bI19ahnkmdJicM+RrquHt1Rp6bZVmjnZUXnYz7M2vUw81KEna+nT34kutC3BXRp8TDPjmYxKvDiyB8HtXZXtHTxdO6yml+6P3RvT522Vtarhaqq027xeavquKaPe9i7ThiaMK0NJq9uT4p9DsaXUeqsPskjLJOABbNgAAAAAAAAAAAAAAAcr23xVqe6uMlfol+bnVHA9s629V3eEfcq6ye2pl38fDdevo0NKOWZNo1UtCBfPN8jNGojz8ZcnpnHJusPWWT8jZYasc3Cvay5/X1JeGxatdtq2WfAt13YKlunyjpoVik6lzRw2hdKz63XsilTaGd0t7rkWPXiVP1JZJ2LrcL55+Rp8RJZ3zt9y+pjna+S5eLNdWxP7rev9WUdTcvgvUUNGWc0uHLMjSlbP0Mcqt83pw5GPvTkWS3PKLsYYJMJZZmWnWXHyZq3Wy1zL++vZX9PyYTkjScTfQxGSV0+GvL7k3D41Zq/I5eniGnlKxmpYn9yu01LPz8PwW69U0+SlbSdlTn7fGYa0czQ09o7rs07aJ30T+qJVLacXrd9fA6dd0JLk5NtbRKnHh9rkLEUFfy8i6tjk119PoautjHe97JcloWN8UUpoi4+kt1ytovXik/rmctVxFm76/Gbna2MSSXG35tx1Zy2Ie87/AD14kFslJ8FWfBdVqXvkepfo3jG6VWk3lGV0uSZ5LXlwWbPTf0cjadX/AGL3RJpPbYsGK+z1QAHaJgAAAAAAAAAAAAAACjZ5RtvFuVSbvrJ29TstpdrKarywsLupB2qNqyjel3iSfFtOPqzg8XBOTfW+trt8jn633x2o7X4qG2TlIXMsVxSIbrEjDVsr3tY40o4lg7mWSJaXy9rcrGF1WuTfqV7zK60b+MwV3nbJeJHZlLJvH7M39rbum7LkWvFtqze8utvKxElPO+fmYpVcuXJcyv6kmTRhFk9V+UUunEsqVoqNs7t5kDveJbVle3y/Q1bk+zbbFdmaVbky+U2R6bXINvQ12mljWSsq3z7l6mYJPLk/XMpvPjl81ubbSGUkzMq1viMcal+VjEqq+eBilVSNlAqyZPpYvlL65GWGPll+7R8tPPiaWWTfj4mB1Hxb9iWNfhlG3DN9V2ql/T+jIGK2mms8uWntbM105P8AhkerV5+f8k8U38nKuwUxeIu9fJ+PXPgRKmI9f5QnJtrx+i8i6FK/4z5FhJJcnOnyzHQTcrvPxPYf0lw1u+l4RV+t39jynC0W3lzPc/08wPd4VN6zbfksl9y1pFutz4Nq1g6gAHXJAAAAAAAAAAAAAAADzvtHsipDaTxG6+6rRgt9Wsqii6e5LirpRs/E5nEzak782j2erTUk4yV09UzzTtbsbu6rsv2vNdGUdVBqLkjqaHUJPazmHKzMvfLyfAsdNkWSzs0cSySfR6CqcZGyVZW1LJYhPoRFWWa8MuZgqViGfuWMlqMEyXVlmnw8CJXu8lp7GanK60syiTXl80I0tpJGagWRWVn6lJSaXO3sX7vkWzaYRDKzLKQm9ddDKpePy5HjLhbiXOr85GWiCTyX1L65FlSftoWRna/UsnU6GVEjk2O8VjFOpwDmvn0I2/n0y58CWMSGWTLOp68/4ME53u+PzmXJPiU3CRJIpTZjm+Gdlfn8RHqrwJs9NdPzp7mOK1y04m8ZYOddHJFjTtwZIoLQuj4knD07yWQlIpuKNnsLZznUjFK7bSR7tg8OqcIwWkUl6HE/p3sW18RJaXUPuzvDsaKrZDL+QAAXTAAAAAAAAAAAAAAAAIG2dmqvT3f8Szi/Hl0ZPBrKKksMym08o8px+A3W4tWkmanE4bU9Q7S7H72O/Bf9yK/5Ll1OArq2q8Dyv5CmWnn9M6+l1TOdqRaZiqSXE3GIop/wQKtJIrQsydaGqTItOefUvdTgY52XExyfIlxkn9XJLqPjbIwzqNvUjSq82/UiOqk7t5dDeNeSRdGwVSzyKOqlm2RP7S/L5wLZy5m3p+TVpN8krvs3rrkYpV8+Xy5hlPLPIsc/4z6o3UEQySL5Szu3qFOzzRGqVXoUjK6z9STZwRWdEupUvZehXJa3I0ptLxL1N5GNpRsRe5PgO8MbnyJFOjcwzn2dlKcU8vM6vsh2fliKija0dZPkvyQdg7DnXqRhBXf0Xi3yPZ9h7JhhqShHXWUuMnzLWl0ztlul0ivLESZh6EYRUIq0YqyRkAO4QgAAAAAAAAAAAAAAAAAAAAA5/tDsBVU501afFcJf1OgBFfRC6DhNcG0ZOLyjyWvScW1JWa4Mi1KSZ6ptXY9Kuv3q0uElqvycRtfstWpZxXeRXGOq6xPL6n8VbS8w5X+l6vUJ/TOPxOH5K5AqUvJG6qx4PIh1qPsV65tcMu16lrs01ajbQgVbO/B8UbfEwfBaGtr02XqpZL9WoyQ4Skna+unAvdXL4zG6Cet/L7l0Y8vW5ZeCaVyZf3ml2suJklK6yfUjVab5PyLqEWuBhxWMkbmjK6V8vqVjR8V8yKxlyG5fiaZZVnN9F25lmVgncvp0+bNhs7ZsqslGmpSb4JXf0NeW8IqTlgjUqN8tTpuzPZmpiJWgrR/xSf8Adivu/A6fs3+nrVp4l247iefm9F5fQ9Aw2GhTioQioxWiReo0TfNhz7LvBE2LsinhoblNf7pPWT5v8GwAOqkksIrZAAMgAAAAAAAAAAAAAAAAAAAAAAAAAFk6qQBC2hsWhW/8lOLf+ZZS9Vmc1tHsDB50qrj4TV16q1vRnU1MXyIdavJlW7TU2f1HkkjOS6Z51tHsdioXsoTX+iS9pWZzmM2VVh/fpTXWLt66HrFdSfE19bByZzp6CK/jJahe12eRVcNnmizuV/U9Uq7Kvqr9SLPYEX/gj/xRH+vaif8AZfk81qtWyuYEj03/AKch/wCuH/FGSnsJLSEV0ivwZWnsXwP2X5PNKOHlJ2jFy8Em/Y6HZPYrG181T3I85tR/+X+76HbUtnyWhssIpx4k9ely/eRT1En0zV7G/S+EbPE1d7/RDJecnm15I7nZ2zKNCO7RpxgvBZvq9WRsNjZcTYU6yZ0aqa4fyilOcpdmQAExoAAAAAAAAAAAAAAAAAAAAAAAAAAAACybAMdWryI0mZ3AsdMwZI0kWuBK7od0YwZITplO6JvdDujGDOSD3KHcond0O6M4GSD3CHcInd0O6GBkg9yVVIm90O6GDGSLGBngy/ui5UzODBkp1TOmR1AyQMmDKAAAAAAAAAAAAAAAAAAAAAAAAAAAUsAAUsU3QDAG6U3QAZG6N0oABYrYoDIK7pSwBgFd0pugGQV3RugAwVSLkgACoAAAAAAAAAAAAAAP/9k=
+<body bgcolor=FAD840>
+<img src=http://txt-dynamic.static.1001fonts.net/txt/dHRmLjcyLjAwMDAwMC5WMmg1SUcxaGJtZHZaWE1nWVhKbElHRnRZWHBwYm1jLC4wAAAA/merry-go-round.medium.png
+</body>
+</html>
